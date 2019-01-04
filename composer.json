@@ -1,0 +1,21 @@
+{
+    "name": "yangshuai/blog",
+    "description": "A micro PHP framework for study",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "james",
+            "email": "shuai.yang@ifchange.com"
+        }
+    ],
+    "require": {
+        "noahbuscher/macaw": "dev-master",
+        "illuminate/database": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
